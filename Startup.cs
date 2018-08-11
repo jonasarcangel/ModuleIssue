@@ -60,6 +60,17 @@ namespace ModuleIssue
 
                 spa.Options.SourcePath = "ClientApp";
 
+                // see https://docs.microsoft.com/en-us/aspnet/core/spa/angular?view=aspnetcore-2.1&tabs=visual-studio                
+    
+                spa.UseSpaPrerendering(options =>
+                {
+                    options.BootModulePath = $"{spa.Options.SourcePath}/dist/server/main.js";
+                    options.BootModuleBuilder = env.IsDevelopment()
+                        ? new AngularCliBuilder(npmScript: "build:ssr")
+                        : null;
+                    options.ExcludeUrls = new[] { "/sockjs-node" };
+                });
+
                 if (env.IsDevelopment())
                 {
                     spa.UseAngularCliServer(npmScript: "start");
