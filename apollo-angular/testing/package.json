@@ -1,0 +1,11 @@
+{
+  "name": "apollo-angular/testing",
+  "description": "A testing backend for Apollo",
+  "author": "Kamil Kisiela <kamil.kisiela@gmail.com> (http://github.com/kamilkisiela/)",
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "./bundle.umd.js",
+  "module": "./index.js",
+  "jsnext:main": "./index.js",
+  "typings": "./index.d.ts"
+}

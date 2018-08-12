@@ -1,0 +1,56 @@
+{
+  "_from": "apollo-angular@^1.1.2",
+  "_id": "apollo-angular@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Rcqg1LTWjEp1z1aqaYIv+lrlIc48hFfnyXlAkgtWeUA8cvRwU3F7m8D4FcuMP/Dal8bcRgkwWb9ThYA2xInofw==",
+  "_location": "/apollo-angular",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "apollo-angular@^1.1.2",
+    "name": "apollo-angular",
+    "escapedName": "apollo-angular",
+    "rawSpec": "^1.1.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/apollo-angular/-/apollo-angular-1.1.2.tgz",
+  "_shasum": "7aaad1c996d26b538eea043b825c0ab59fdfe8e5",
+  "_spec": "apollo-angular@^1.1.2",
+  "_where": "/Users/jasonbanico/Dropbox/Workspace/ModuleIssue/ClientApp",
+  "author": {
+    "name": "Kamil Kisiela",
+    "email": "kamil.kisiela@gmail.com",
+    "url": "http://github.com/kamilkisiela/"
+  },
+  "bugs": {
+    "url": "https://github.com/apollographql/apollo-angular/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Use your GraphQL data in your Angular app, with the Apollo Client",
+  "homepage": "https://github.com/apollographql/apollo-angular#readme",
+  "jsnext:main": "./index.js",
+  "license": "MIT",
+  "main": "./bundle.umd.js",
+  "module": "./index.js",
+  "name": "apollo-angular",
+  "peerDependencies": {
+    "@angular/core": "^6.0.0",
+    "apollo-client": "^2.0.0",
+    "apollo-link": "^1.0.0",
+    "rxjs": "^6.0.0",
+    "zone.js": "~0.8.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollographql/apollo-angular.git"
+  },
+  "sideEffects": false,
+  "typings": "./index.d.ts",
+  "version": "1.1.2"
+}
